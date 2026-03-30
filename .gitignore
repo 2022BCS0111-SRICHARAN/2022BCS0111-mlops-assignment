@@ -14,9 +14,8 @@ env/
 # MLflow
 mlruns/
 
-# DVC
-/dataset/*.csv
-!/dataset/.gitkeep
+# DVC local cache
+/dataset/.gitkeep
 
 # IDE
 .idea/

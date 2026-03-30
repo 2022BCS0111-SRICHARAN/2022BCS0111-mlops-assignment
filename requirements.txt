@@ -4,9 +4,7 @@ joblib
 numpy
 mlflow
 fastapi
-uvicorn[standard]
-dvc
-dvc-s3
+uvicorn
 pytest
 requests
 pydantic
