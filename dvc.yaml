@@ -1,0 +1,26 @@
+stages:
+  prepare:
+    cmd: echo "Preparing dataset..."
+    deps:
+      - dataset/winequality-red.csv
+    outs:
+      - dataset/prepared_data.csv:
+          cache: true
+
+  train:
+    cmd: python src/train.py --run_name run1 --model_type lasso --alpha 0.1 --dataset_version v1
+    deps:
+      - src/train.py
+      - dataset/winequality-red.csv
+    outs:
+      - models/model.pkl:
+          cache: true
+    metrics:
+      - models/results.json:
+          cache: false
+
+  evaluate:
+    cmd: python -c "import json; r=json.load(open('models/results.json')); print(f'MSE={r[\"MSE\"]}, R2={r[\"R2\"]}')"
+    deps:
+      - models/results.json
+      - models/model.pkl

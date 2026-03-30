@@ -1,0 +1,13 @@
+{
+    "run_name": "run5",
+    "model_type": "gradient_boosting",
+    "dataset_version": "v2",
+    "features": "selected",
+    "num_features": 6,
+    "MSE": 0.3324,
+    "RMSE": 0.5766,
+    "MAE": 0.4309,
+    "R2": 0.3455,
+    "student_name": "Sricharan",
+    "roll_no": "2022BCS0111"
+}
