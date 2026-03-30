@@ -63,5 +63,18 @@
         "R2": 0.3455,
         "student_name": "Sricharan",
         "roll_no": "2022BCS0111"
+    },
+    {
+        "run_name": "final",
+        "model_type": "ridge",
+        "dataset_version": "v1",
+        "features": "all",
+        "num_features": 11,
+        "MSE": 0.4112,
+        "RMSE": 0.6413,
+        "MAE": 0.5134,
+        "R2": 0.3514,
+        "student_name": "Sricharan",
+        "roll_no": "2022BCS0111"
     }
 ]
