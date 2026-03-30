@@ -96,20 +96,33 @@
 
 > Note: All screenshots should include Name: Sricharan, Roll No: 2022BCS0111
 
-1. **GitHub repository** — Repository page showing all files
-2. **DVC tracking and S3 bucket** — DVC config and S3 bucket contents
-3. **CI/CD pipeline execution** — GitHub Actions workflow run showing all stages
-4. **MLflow runs (all 5)** — MLflow UI showing sricharan_experiment with 5 runs
-5. **Docker image in Docker Hub** — Docker Hub page showing sricharan-mlops image
-6. **Running container** — Docker container running the API
-7. **API responses with Name + Roll No** — /health and /predict endpoint responses
+1. **GitHub repository** — 
+   <!-- Paste your GitHub repository screenshot here -->
+
+2. **DVC tracking and S3 bucket** — 
+   <!-- Paste your DVC config/S3 screenshot here (Optional if S3 is skipped) -->
+
+3. **CI/CD pipeline execution** — 
+   <!-- Paste your GitHub Actions success screenshot here -->
+
+4. **MLflow runs (all 5)** — 
+   <!-- Paste your MLflow UI screenshot here -->
+
+5. **Docker image in Docker Hub** — 
+   <!-- Paste your Docker Hub charan2501/sricharan-mlops screenshot here -->
+
+6. **Running container** — 
+   <!-- Paste your Docker Desktop or CLI container running screenshot here -->
+
+7. **API responses with Name + Roll No** — 
+   ![Swagger UI API Test](/C:/Users/HAI/.gemini/antigravity/brain/36fab53d-89bc-4b8b-9569-093e70084c01/.system_generated/click_feedback/click_feedback_1774907305295.png)
 
 ---
 
 ## 6. Links
 
-- **GitHub Repository Link:** `https://github.com/<username>/2022BCS0111-mlops`
-- **Docker Hub Link:** `https://hub.docker.com/r/<username>/sricharan-mlops`
+- **GitHub Repository Link:** `https://github.com/2022BCS0111-SRICHARAN/2022BCS0111-mlops-assignment`
+- **Docker Hub Link:** `https://hub.docker.com/r/charan2501/sricharan-mlops`
 
 ---
 
